@@ -1,0 +1,438 @@
+/*untuk index.html*/
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+li{
+	list-style: none;
+}
+
+@font-face{
+	font-family: Raleway;
+	src:url(../../resources/font/raleway/Raleway-Light.ttf);
+}
+body{
+	font-family: Raleway;
+	max-width: 100%;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: Raleway;
+}
+.wrapper-elite{
+	max-width: 100%;
+	margin: 0 auto;
+	font-family: Raleway;
+}
+.header{
+	box-sizing: border-box;
+	padding: 15px 0px;
+}
+.nav {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Raleway;
+}
+.navigasi{
+	width: 100%;
+	overflow: hidden;
+}
+.merk{
+	float: left;
+	height: 100%;
+	padding: 0px 20px;
+	font-weight: bold;
+	font-size: 28px;
+	color: #868686;
+}
+.menusaya{
+}
+/*slider*/
+.slidy{
+	padding-bottom: 50px;
+}
+.img{
+	max-width: 100%;
+	margin: 0 auto;
+}
+.img img{
+	width: 100%;
+}
+.caption{
+	text-align: center;
+}
+.desc{
+	padding: 20px 50px;
+
+}
+.desc p{
+	text-align: center;
+	font-size: 24px;
+}
+.tombol{
+	padding: 10px 15px;
+	border-radius: 8px;
+	font-size: 18px;
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: Raleway;
+	background: #328def;
+	color: white;
+	border:none;
+	box-shadow: 0 0 10px grey;
+}
+.tombol:hover{
+	transition: 0.3s;
+	background: #0b3d5a;
+	color: white;
+}
+.biru{
+	color: #3399cc;
+}
+/*konten*/
+.content{
+	background: #eeeeee6b;	
+	padding: 50px 0px;
+	font-family: Raleway;
+}
+.judul {
+	text-align: center;
+	font-size:24px;
+	font-weight: bold;
+}
+.judul::after{
+	content: "";
+	width: 80px;
+	border-bottom: 2px solid black;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0px;
+}
+.content .row{
+	margin:0 auto;
+}
+.image{
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	padding: 30px;
+}
+.image img {
+	width: 100%;
+	border-radius: 8px;
+}
+article {
+	box-sizing: border-box;
+	transition: 0.3s;
+}
+article:hover{
+	transform: scale(0.9);
+}
+article h3 {
+}
+.texty{
+	text-align: center;
+}
+.texty p{
+	text-align: justify;
+}
+.add-story{
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+	width: 320px;
+	/*background: linear-gradient(100deg,red 0%,blue 100%);*/
+	padding: 10px;
+	border-radius: 14px;
+}
+.add-story span{
+	color: #3399cc;
+}
+.add-story p{
+	font-size: 22px;
+}
+/*.add-story p::after{
+	content: "";
+	display: block;
+	margin: 0px auto;
+	width: 80px;
+	border-bottom: 1.5px solid black;
+	padding: 10px 0 0;
+}*/
+.add-story button{
+	background-color: #3399cc;
+	border-radius: 18px;
+	border: none;
+	padding: 8px 12px;
+	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+}
+.add-story button:hover{
+	background: #339;
+}
+/*galeri*/
+.galeri {
+	padding: 50px 0px;
+}
+.galeri p{
+	text-align: center;
+}
+.galeri .col-sm-3 {
+	margin-bottom: 15px;
+}
+.galeri img{
+	width: 100%;
+	border-radius: 5px;
+}
+.galery-img {
+	position: relative;
+}
+.capt {
+	position: absolute;
+	z-index: 999;
+}
+.capt-img {
+	position: absolute;
+	background: rgba(255,255,255,0.5);
+	height: 0px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	line-height: 50px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.capt-img a {
+	float: left;
+	text-decoration: none;
+}
+.capt-img a i{
+	font-size: 24px;
+	padding: 10px 12px;
+}
+.galery-img:hover .capt-img {
+	height: 100%;
+	transition: 0.3s;
+}
+.suka{
+	color: pink;
+}
+.tidak-suka{
+	color: blue;
+}
+.unduh{
+	color: green;
+}
+/*contact*/
+.contact{
+	background: #3399cc;
+	padding: 50px 0px;
+}
+.contact h2::after{
+	border-color: white;
+}
+.contact h2, .contact p{
+	color: white;
+	text-align: center;
+}
+.ketiga{
+	min-height: 100px;
+	box-sizing: border-box;
+	padding: 10px;
+	color: white;
+	text-align: left;
+}
+.ketiga h3{
+	font-weight: bold;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: whitesmoke;
+}
+.ketiga p{
+	text-align: left;
+}
+.ketiga i{
+	font-size: 30px;
+	vertical-align: middle;
+	padding: 10px;
+}
+.con-info li{
+	padding: 10px 0px;
+}
+.con-form{
+
+}
+.con-form input{
+	width: 380px;
+	border-radius: 4px;
+	margin: 10px 0px;
+	padding: 5px 9px;
+	border: none;
+}
+.teks-area{
+	min-height: 100px;
+	width: 380px;
+	border-radius: 4px;
+	border: none;
+}
+.con-form button{
+	background: green;
+	border:none;
+	font-weight: bold;
+	letter-spacing: 2px;
+	transition: 0.3s;
+}
+.con-form button:hover{
+	background: #3399ff;
+}
+/*footer*/
+.footy{
+	background: #1d4775;
+	text-align: center;
+	padding: 30px;
+	color: white;
+}
+
+/*untuk single.post*/
+.konten{
+	padding: 50px 0;
+	text-align: left;
+}
+.konten h2{
+	text-align: lefts;
+	font-size:24px;
+	font-weight: bold;
+}
+.konten h2::after{
+	content: "";
+	width: 80px;
+	border-bottom: 2px solid black;
+	display: block;
+	padding: 8px 0px;
+}
+.keterangan{
+	font-size: 12px;
+	border-radius: 4px;
+	background: #eee;
+	padding: 8px 10px;
+}
+.keterangan i{
+	font-size: 17px;
+	vertical-align: middle;
+	padding: 5px;
+}
+/* Acount Side Menu */
+.side-menu {
+	width: 100%;
+	background-color: #eaeaea;
+}
+.side-head {
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-left: 18px;
+	background-color: #0062cc;
+}
+.side-body ul{
+	padding: 0;
+	list-style: none;
+}
+.side-body ul li {
+	display: block;
+	padding: 5px 15px;
+}
+.profil .photo {
+	max-width: 190px;
+	max-height: 190px;
+	border-radius: 50%;
+	background-color: #eaeaea;
+	border: solid 2px #1e86c3;
+	overflow: hidden;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	text-align: center;
+	margin: 20px auto;
+}
+.sembunyi {
+	display: none;
+}
+.uploadimg {
+	width: 100%;
+}
+.ketiga i:hover {
+    color: #055075;
+}
+.galery-img:hover img {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.galery-img {
+    position: relative;
+    border: 1px solid #dedede;
+    border-radius: 10px;
+    overflow: hidden;
+}
+/*untuk single.post*/
+.konten{
+	padding: 50px 0;
+	text-align: left;
+	background: white;
+}
+.konten h2{
+	text-align: lefts;
+	font-size:24px;
+	font-weight: bold;
+}
+.konten h2::after{
+	content: "";
+	width: 80px;
+	border-bottom: 2px solid black;
+	display: block;
+	padding: 8px 0px;
+}
+.keterangan{
+	font-size: 12px;
+	border-radius: 4px;
+	background: #eee;
+	padding: 8px 10px;
+}
+.keterangan i{
+	font-size: 17px;
+	vertical-align: middle;
+	padding: 5px;
+}
+.sosmed{
+	font-size: 24px;
+	padding: 6px;
+}
+.share{
+	font: 30px;
+}
+
+
+.gambar{
+	width: 800px;
+	margin: 20px 0;
+}
+.gambar img{
+	width: 100%;
+}
+.loading {
+	line-height: 100%;
+	margin: 20px auto;
+}
+.loading img{
+	width: 100%;
+}
